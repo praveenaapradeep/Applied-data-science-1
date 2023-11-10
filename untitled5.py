@@ -34,7 +34,7 @@ def line_plot(x, y1, y2, x_label, y_label, title, label1, label2):
     x: str - column name for the x-axis
     y1: str - column name for the y-axis
     y2: str - column name for the y-axis
-    title: str - title for the line graph
+    title: str - title for the line plot
     
     Returns:
     None
