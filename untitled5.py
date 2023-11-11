@@ -74,7 +74,7 @@ df = read_dataset("C:\\Users\\HP\\Downloads\\archive (1)\\productivity_n_hourly_
 line_plot(df['year'], df['men_median_compensation'], df['women_median_compensation'],
           'Year', 'Net Productivity Per Hour Worked', 'Productivity Over the Years', 'Men', 'Women')
 
-# Create scatter plot
+# Create scatter_plot
 scatter_plot(df['net_productivity_per_hour_worked'], df['average_compensation_of_production_and_nonsupervisory_workers'],
              'Net Productivity Per Hour Worked', 'Productivity of Avg and Non-supervisory Workers',
              'Hours per average productivity and non-supervisory workers')
